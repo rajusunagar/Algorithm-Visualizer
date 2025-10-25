@@ -1,0 +1,17 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: algorithm-visualizer-backend
+
+logging:
+  level:
+    com.algorithmvisualizer: DEBUG
+    org.springframework.web: DEBUG
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
